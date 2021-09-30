@@ -8,3 +8,9 @@
 // 参考：関数名はprice
 // 参考：引数 単価はの変数名は、unitPrice
 // 参考：引数 個数の変数名は、n
+
+function price(unitPrice, n) {
+  return unitPrice * n;
+}
+
+console.log(price(100, 13));
