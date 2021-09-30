@@ -9,9 +9,21 @@
 // ⇒ 3種類の方法で関数を定義してみます。
 
 // function 命令
-
+/*
+function getRectangle(height, width) {
+  return height * width;
+}
+console.log(getRectangle(3, 5));
+*/
 
 // 関数リテラルによる関数の定義
-
+/*
+let getRectangle = function (height, width) {
+  return height * width;
+};
+console.log(getRectangle(3, 5));
+*/
 
 // Function コンストラクター
+let getRectangle = new Function('height', 'width', 'return height * width');
+console.log(getRectangle(3, 5));
