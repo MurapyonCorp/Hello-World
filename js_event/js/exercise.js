@@ -9,10 +9,10 @@
     // addEventListenerを使って実装する。
 
     // ここから↓↓↓↓
-
-
-
-
+    let e = document.getElementById('button');
+    e.addEventListener('click', function () {
+      appendElement();
+    }, false);
     // ここまで↑↑↑↑
 
   }, false);
