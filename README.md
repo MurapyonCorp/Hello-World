@@ -1,6 +1,10 @@
 # 参考教材
 
-<div style="text-align: center;">
-  <a href="https://www.sbcr.jp/product/4815601577/"><img src="./images/front-cover.jpg"></a>
-  #### <a href="https://www.sbcr.jp/product/4815601577/">確かな力が身につくJavaScript「超」入門 第2版</a>
-</div>
+<a href="https://www.sbcr.jp/product/4815601577/">
+  <div align="center">
+    <img src="./images/front-cover.jpg">
+  </div>
+  <div style="text-align: center;">
+    <h4>確かな力が身につくJavaScript「超」入門 第2版<h4>
+  </div>
+</a>
