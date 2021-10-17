@@ -4,7 +4,5 @@
   <div align="center">
     <img src="./images/front-cover.jpg">
   </div>
-  <div style="text-align: center;">
-    <h4>確かな力が身につくJavaScript「超」入門 第2版<h4>
-  </div>
 </a>
+[確かな力が身につくJavaScript「超」入門 第2版](https://www.sbcr.jp/product/4815601577/)
