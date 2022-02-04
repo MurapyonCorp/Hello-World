@@ -7,18 +7,21 @@
 <link href="../../_common/images/favicon.ico" rel="shortcut icon">
 <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
 <link href="../../_common/css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="css/panel.css" />
 </head>
 <body>
 <header>
 <div class="container">
-<h1>タイトル</h1>
-<h2>サブタイトル</h2>
+<h1>プライバシーポリシー承認パネルを作る</h1>
+<h2>クッキーの内容に応じてパネルを削除する</h2>
 </div><!-- /.container -->
 </header>
 <main>
 <div class="container">
 <section>
-
+  <p>
+    <button id="testbtn">テスト用 cookie</button>
+  </p>
 </section>
 </div><!-- /.container -->
 </main>
@@ -27,6 +30,11 @@
 <p>JavaScript Samples</p>
 </div><!-- /.container -->
 </footer>
-<script src="js/.js"></script>
+<div id="privacy-panel">
+  <p>当サイトではユーザーエクスペリエンス向上のためクッキーを使用しています。また匿名でアクセス状況のデータを収集しています。詳しい情報は当サイトのプライバシーポリシーをご覧ください。</p>
+  <button id="agreebtn">承認する</button>
+</div>
+<script src="../../_common/scripts/js.cookie.js"></script>
+<script src="js/cookie.js"></script>
 </body>
 </html>
