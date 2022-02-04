@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,14 +11,21 @@
 <body>
 <header>
 <div class="container">
-<h1>タイトル</h1>
-<h2>サブタイトル</h2>
+<h1>プルダウンメニューで指定ページへ</h1>
+<h2>最初に選択されている項目を切り替える</h2>
 </div><!-- /.container -->
 </header>
 <main>
 <div class="container">
 <section>
-
+  <form id="form">
+    <select name="select">
+      <option value="index.html">日本語</option>
+      <option value="index-en.html">English</option>
+      <option value="index-zh.html">中文</option>
+    </select>
+  </form>
+  <h2>日本語のページ</h2>
 </section>
 </div><!-- /.container -->
 </main>
@@ -27,6 +34,6 @@
 <p>JavaScript Samples</p>
 </div><!-- /.container -->
 </footer>
-<script src="js/.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
