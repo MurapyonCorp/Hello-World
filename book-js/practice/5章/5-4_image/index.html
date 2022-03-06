@@ -7,18 +7,29 @@
 <link href="../../_common/images/favicon.ico" rel="shortcut icon">
 <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
 <link href="../../../_common/css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="css/thumbnail.css">
 </head>
 <body>
 <header>
 <div class="container">
-<h1>タイトル</h1>
-<h2>サブタイトル</h2>
+<h1>イメージの切り替え</h1>
+<h2>サムネイルのクリックによる切り替え</h2>
 </div><!-- /.container -->
 </header>
 <main>
 <div class="container">
 <section>
-
+  <div class="center">
+    <div>
+      <img src="img/img1.jpg" id="bigimg">
+    </div>
+    <ul>
+      <li><img src="img/thumb1.jpg" data-image="img/img1.jpg" class="thumb"></li>
+      <li><img src="img/thumb2.jpg" data-image="img/img2.jpg" class="thumb"></li>
+      <li><img src="img/thumb3.jpg" data-image="img/img3.jpg" class="thumb"></li>
+      <li><img src="img/thumb4.jpg" data-image="img/img4.jpg" class="thumb"></li>
+    </ul>
+  </div>
 </section>
 </div><!-- /.container -->
 </main>
@@ -27,6 +38,6 @@
 <p>JavaScript Samples</p>
 </div><!-- /.container -->
 </footer>
-<script src="js/.js"></script>
+<script src="js/thumbnail.js"></script>
 </body>
 </html>
